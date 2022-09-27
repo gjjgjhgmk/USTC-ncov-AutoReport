@@ -6,7 +6,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/Kobe972/USTC-ncov-AutoReport)
 ![GitHub forks](https://img.shields.io/github/forks/Kobe972/USTC-ncov-AutoReport)
 
-## 说明
+## 说明 
 
 **本打卡脚本仅供学习交流使用，请勿过分依赖。开发者对使用或不使用本脚本造成的问题不负任何责任，不对脚本执行效果做出任何担保，原则上不提供任何形式的技术支持。该版本相对于原版本做了如下修改：补充了login的data，使程序能成功登录现在的系统；将data.json改为山西省大同市相应的数据，2022年3月19日改回中区在校数据；根据原版本的pull requests进行了正则表达式以及http->https的改变；改变了requests，json，以及bs4的import顺序，解决了本地终端运行的NameError问题，现亲测本地可以成功运行，action方法也可；增加了验证码识别模块，可以应对新版身份认证系统的验证码机制。**
 
